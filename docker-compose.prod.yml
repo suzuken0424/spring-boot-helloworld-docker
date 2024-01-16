@@ -6,8 +6,3 @@ services:
       context: ./
       dockerfile: docker/prod/app/Dockerfile
     image: hello-world
-    container_name: app_container
-    ports:
-      - 8080:8080
-    tty: true
-    working_dir: /var/www/html/server
